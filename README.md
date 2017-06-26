@@ -37,7 +37,7 @@ docker pull graymic/s4
 e.g. Running an s4cmd command: 
 
 ```
-docker run graymic/s4 --env-file=myfile.env get s3://[bucket]/[file]
+docker run --env-file=myfile.env graymic/s4 get s3://[bucket]/[file]
 ```
 
 
